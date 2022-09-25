@@ -4,6 +4,6 @@ services:
     build: .
     image: checkpoint2
     container_name: steffanycristinacosta/checkpoint2
-    command: git -C /build clone https://github.com/steffanycristina/Jd-S-o-Manoel.git
+    command: git -C /build clone https://github.com/steffanycristina/JdSaoManoel.git
     ports:
      - "80:80"
