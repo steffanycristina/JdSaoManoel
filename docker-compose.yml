@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  checkpoint2:
+    build: .
+    image: checkpoint2
+    container_name: steffanycristinacosta/checkpoint2
+    command: git -C /build clone https://github.com/steffanycristina/Jd-S-o-Manoel.git
+    ports:
+     - "80:80"
